@@ -15,14 +15,14 @@ const Delete = () => {
                         </div>
                         <div className="modal-body">
                             <div className='text-center'>
-                                    <img src={recycle} alt="Recycle" />
-                                    <h4 >Do you want to delete this folder?</h4>
+                                    <img src={recycle} alt="Recycle" className='my-4'/>
+                                    <h4 className='my-4' >Do you want to delete this folder?</h4>
                                     <p>This folder will have 15 files. Once you delete the folder 15 files will not show forever. There is no undo option. </p>
                             </div>
                            
                             <div className='d-flex justify-content-center mt-4 mb-3 '>
                                 <button type="button" className="btn" data-dismiss="modal">No,I Cancel</button>
-                                <button type="button" className="btn btn-outline-danger ml-4" >Delete</button>
+                                <button type="button" className="btn  btn-danger r-btn-danger ml-4"  >Delete</button>
                             </div>
                         </div>
 

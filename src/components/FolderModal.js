@@ -34,7 +34,7 @@ const FolderModal = () => {
 
                 <div className='d-flex justify-content-center mt-4 mb-3 '>
                   <button type="button" className="btn" data-dismiss="modal">Cancel</button>
-                  <button type="submit" className="btn btn-outline-info ms-4" >Save</button>
+                  <button type="submit" className="btn btn-success g-btn-info ms-4" >Save</button>
                 </div>
 
               </form>
