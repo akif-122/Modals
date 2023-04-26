@@ -21,16 +21,16 @@ const FileUpload = () => {
                                 
                                 <div className='col-sm-6'>
                                     <img src={gdrive} alt='Google Drive logo' />
-                                    <p className='my-3'>Upload from your DropBox</p>
-                                    <button className='btn btn-success g-btn-info '>
+                                    <p>Upload from your DropBox</p>
+                                    <button className='btn btn-outline-info'>
                                         Upload
                                     </button>
                                 </div>
                                 <div className='col-sm-6'>
                                     <img src={device} alt='Local server' />
-                                    <p className='my-3'>Upload from Device</p>
+                                    <p>Upload from Device</p>
 
-                                    <button className='btn btn-success g-btn-info'>
+                                    <button className='btn btn-outline-info'>
                                         Upload
                                     </button>
                                     

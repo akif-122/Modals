@@ -11,18 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
-
-.btn-danger.r-btn-danger{
-  color: #FE3737 ;
-  background-color: #FCC3C3 ;
-  border: 1px solid #FCC3C3;
-  
-}
-
-.btn-success.g-btn-info{
-  color: #19CB86 ;
-  background-color: #E9FBF2 ;
-  border: 1px solid #E9FBF2;
-}

@@ -18,7 +18,7 @@ const FolderModal = () => {
               <form>
 
                 <div className=' form-group'>
-                  <label htmlFor="">Visible</label>
+                  <label>Visible</label>
                   <select className='form-control'>
                     <option>All</option>
                     <option>Private</option>
@@ -26,15 +26,26 @@ const FolderModal = () => {
                   </select>
                 </div>
 
+                <div className='mt-4 mb-3'>
+                  <div className=" custom-control-inline">
+                    <input type="radio" id="pass" className='mb-2' name='isPass'/>
+                      <label className="ml-2" for="pass">No</label>
+                  </div>
+                  <div className="custom-control-inline">
+                    <input type="radio" id="pass2" className='mb-2' name='isPass' checked/>
+                      <label className=" ml-2" for="pass2">Yes</label>
+                  </div>
+
+                </div>
 
                 <div className=' form-group'>
                   <label htmlFor="">Password</label>
-                  <input type='text' className='form-control' placeholder='Password'/>
+                  <input type='text' className='form-control' placeholder='Password' />
                 </div>
 
                 <div className='d-flex justify-content-center mt-4 mb-3 '>
                   <button type="button" className="btn" data-dismiss="modal">Cancel</button>
-                  <button type="submit" className="btn btn-success g-btn-info ms-4" >Save</button>
+                  <button type="submit" className="btn btn-outline-info ms-4" >Save</button>
                 </div>
 
               </form>

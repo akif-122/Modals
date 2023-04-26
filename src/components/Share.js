@@ -21,20 +21,20 @@ const FolderModal = () => {
                             <div className='row text-center g-4 my-4'>
                                 <div className='col-sm-4'>
                                     <img src={dropBox} alt='Dropbox logo' />
-                                    <p className='my-3'>Dropbox</p>
+                                    <p>Dropbox</p>
                                 </div>
                                 <div className='col-sm-4'>
                                     <img src={gmail} alt='Gmail  logo' />
-                                    <p className='my-3'>Gmail</p>
+                                    <p>Gmail</p>
                                 </div>
                                 <div className='col-sm-4'>
                                     <img src={gdrive} alt='Google Drive logo' />
-                                    <p className='my-3'>Google Drive</p>
+                                    <p>Google Drive</p>
                                 </div>
                             </div>
                             <div className='d-flex justify-content-center mt-4 mb-3 '>
                                 <button type="button" className="btn" data-dismiss="modal">Cancel</button>
-                                <button type="submit" className="btn btn-success g-btn-info ms-4" >Save</button>
+                                <button type="submit" className="btn btn-outline-info ms-4" >Save</button>
                             </div>
                         </div>
 

@@ -28,11 +28,9 @@ function App() {
       <button className='m-3 btn  btn-danger' data-target="#delete" data-toggle="modal">
       Delete
       </button>
-      </div>  
-   
-
+      </div>
+     
     </div>
-
 
   );
 }
